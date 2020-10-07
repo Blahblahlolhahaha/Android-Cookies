@@ -27,7 +27,6 @@ public class CookieBoi implements CookieStore {
 
     private final String COOKIESPREF = "COOKIES";
     private final String COOKIES_URI_STORE = "URI_STORE";
-    private final String LOG_TAG = "NUMBAH 1:";
     private Map<URI,Map<String,HttpCookie>> cookies = new HashMap<>();
     private List<String> storedDomains;
 
